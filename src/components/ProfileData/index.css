@@ -1,0 +1,136 @@
+
+
+.outline{
+    flex:1;
+    border:1px solid grey;
+    margin:10px;
+    border-radius: 5px;
+    background-color: white;
+  
+    min-height: 50vh;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-bottom:0.5px solid  lightgrey;
+    
+}
+
+.contact-container p{
+    padding-left: 10px;
+    font-weight: 500;
+    margin-right: 10%;
+}
+
+.contact-number{
+    display: flex;
+    width:40%;
+    
+
+}
+
+.contact-number input{
+    cursor: pointer;
+    outline: none;
+    width:120%;
+}
+
+.phone{
+    background-color: #5F9EA0;
+    color:white;
+    border-radius: 5px;
+    padding:5px;
+
+}
+
+.pages{
+    border-bottom: 0.5px solid lightgrey;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color:rgb(200, 198, 198);
+    padding-top:2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    padding-right: 10%;
+}
+
+.pages span{
+    background-color: #318CE7;
+    padding:2px 8px;
+    color:white;
+    border-radius: 4px;
+    font-size: 12px;
+
+
+
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 2px solid 	#008080;
+    
+}
+
+.offer{
+    color:white;
+    background-color: #8A2BE2;
+    display: flex;
+    align-items: center;
+    padding:3px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+.offer span{
+    padding-left: 5px;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+}
+
+.contact-details span{
+    background-color: #318CE7;
+    color:white;
+    padding:3px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-left:2px;
+}
+
+.more-info-icon{
+    background-color: #318CE7;
+    color:white ;
+    padding:3px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-left:2px;
+}
+
+.bhim-icon{
+    width:20px;
+}
+
+.profile-data{
+    display: flex;
+    
+    align-items: flex-start;
+    border-bottom: 0.5px solid lightgrey;
+    height: 100%;
+}
+
+.showing-result p{
+    
+    font-size: 12px;
+    font-weight: 500;
+    padding-left:10px;
+    
+}
